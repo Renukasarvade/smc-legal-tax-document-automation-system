@@ -72,5 +72,57 @@ Useful for officers who prefer dictation or audio output.
 
 System continues working even when internet or API access is limited.
 
+## 🏗️ System Architecture
+
+PDF/Image Upload
+➜ OCR / Text Extraction
+➜ Preprocessing
+➜ AI Engine (Gemini / Offline NLP)
+➜ Semantic Understanding
+➜ Summaries + Key Points
+➜ Q&A Response
+➜ Display on Web UI
+---
+
+## 🧠 Technology Stack
+
+### **Frontend**
+- HTML  
+- CSS  
+- JavaScript  
+- REST API integration  
+
+### **Backend**
+- Python  
+- Flask (REST API)  
+- Session management  
+
+### **AI / NLP**
+- Google Gemini 2.x Models (online)  
+- Offline fallback NLP engine  
+- Embedding models for semantic search  
+
+### **Document Processing**
+- PyPDF2  
+- pdfplumber  
+- Tesseract OCR (bundled with the app)  
+- Speech-to-text & text-to-speech support  
+
+### **Storage Layer**
+- JSON-based lightweight DB  
+- User sessions  
+- Logs  
+- Document metadata  
+
+---
+
+## 🎥 Demo Video
+Click below to watch the system demo:
+
+▶️ **YouTube Link:** https://youtu.be/liR3K9MWwMI
+
+
+
+
 
 
